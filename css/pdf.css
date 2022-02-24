@@ -1,0 +1,48 @@
+/*
+Author: Vera
+*/
+
+body {
+    font-family: Arial;
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#certificado {
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px 40px;
+    min-width: 920px;
+    page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+}
+p.texto {
+    margin: 70px 0;
+}
+p.assinatura {
+    /*background: url({{ STATIC_URL }}img/assinou.png) no-repeat 50px -1px;*/
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 30px 0 200px;
+    padding-top: 58px;
+    width: 300px;
+}
+p.validacao {
+    display: inline-block;
+    font-size: 13px;
+    text-align: left;
+    width: 380px;
+}
+@page landscape {
+    size: landscape;
+}
+

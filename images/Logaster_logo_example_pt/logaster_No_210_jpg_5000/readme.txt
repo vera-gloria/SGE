@@ -1,0 +1,2 @@
+Sombras não são suportadas no PDF e em arquivos raster grandes (5000px).
+Mas se você precisar de um logo com sombras, por favor, nos contate em support@logaster.com que iremos adiciona-las manualmente.
